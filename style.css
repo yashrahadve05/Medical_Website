@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&family=Rubik:wght@400;500&display=swap");
+
+/* 
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+ */
+
+/* :root {
+  --margin-40px: 40px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  padding: 5px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.navbar .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
+}
+
+/* .navbar ul li {
+
+} */
+
+.navbar ul li a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(12, 12, 12);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar ul li a:hover {
+  color: rgba(12, 12, 12, 0.85);
+}
+
+.hero {
+  display: flex;
+  margin: 30px;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-left {
+  width: 45vw;
+}
+
+.hero-left p {
+  font-size: 1rem;
+  padding: 10px 0;
+}
+
+.hero-right {
+  width: 45vw;
+}
+
+.hero-right img {
+  width: 45vw;
+}
+
+/* ---------------------------------------- Container-1 ----------------------------------------  */
+
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-1 .container-card {
+  width: 23%;
+  height: 280px;
+  padding: 15px;
+  border: 2px solid rgba(157, 159, 161, 0.397);
+  border-radius: 15px;
+}
+
+.container-1 .container-card p {
+  padding: 15px 0;
+  font-weight: 500;
+}
+
+.container-1 .container-card .card-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.container-1 .container-card .btn-dark {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.container-1 .container-card .card-heading div img {
+  width: 45px;
+}
+
+/* ---------------------------------------- About Section ----------------------------------------  */
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin: 120px 40px 40px;
+}
+
+.about-left {
+  width: 48%;
+}
+
+.about-left img {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+}
+
+.about-right {
+  width: 48%;
+}
+
+.about-right h5,
+.about-right h2 {
+  margin: 5px 0 30px 0;
+}
+
+.about-right p {
+  margin-bottom: 15px;
+}
+
+.about-right .btn-light {
+  margin-top: 40px;
+}
+
+/* ---------------------------------------- Servises Section ----------------------------------------  */
+
+.servises {
+  margin: 40px;
+}
+
+.servises-heading {
+  text-align: center;
+}
+
+.servises-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.servises-left {
+  width: 48%;
+  display: grid;
+  grid-template-columns: 180px 180px 180px;
+  grid-gap: 20px;
+}
+
+.servises-left div {
+  /* width: 150px; */
+  border: 2px solid rgb(243, 227, 227);
+  border-radius: 15px;
+  background-color: rgb(230, 229, 233);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.servises-left div img {
+  width: 75px;
+  margin-bottom: 50px;
+}
+
+.servises-right {
+  background-color: bisque;
+  width: 48%;
+  height: 430px;
+  border: 2px solid rgb(252, 220, 220);
+  border-radius: 15px;
+}
+
+.servises-right img {
+  width: 100%;
+  height: 50%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.servises-right div {
+  margin: 10px 20px;
+}
+
+.servises-right div p {
+  color: gray;
+}
+
+/* ---------------------------------------- Features Section ----------------------------------------  */
+
+.features {
+  display: flex;
+  margin: 180px 40px;
+  justify-content: space-between;
+  align-items: center;
+  height: 550px;
+}
+
+.feature-left {
+  width: 45%;
+}
+
+.feature-left p {
+  margin-bottom: 25px;
+}
+
+.feature-left h2 {
+  margin-top: 50px;
+}
+
+.feature-box {
+  display: flex;
+  align-items: center;
+  width: 190%;
+  background-color: rgba(255, 255, 0, 0.623);
+  height: 250px;
+  border-radius: 15px;
+}
+
+.feature-box img {
+  width: 90px;
+  background-color: rgb(233, 215, 215);
+  border-radius: 60px;
+  padding: 10px;
+  margin: 18px;
+}
+
+.feature-right {
+  width: 45%;
+}
+
+.feature-right img {
+  width: 90%;
+  height: 425px;
+  border-radius: 15px;
+}
+
+.feature-box-container {
+  width: 90%;
+}
+
+.feature-box-container h5 {
+  margin: 20px 0;
+  color: black;
+}
+
+.feature-box-container p {
+  width: 40%;
+  color: gray;
+}
+
+/* ---------------------------------------- Time-table Section ----------------------------------------  */
+
+.time-table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.time-table-left {
+  width: 48%;
+}
+
+.time-table-left img {
+  width: 100%;
+}
+
+.time-table-right {
+  width: 48%;
+}
+
+.time-table-right h5 {
+  margin: 20px 0;
+}
+
+.time-table-right h2 {
+  margin-bottom: 10px;
+}
+
+.time-table-right p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+.time-table-right #second-para {
+  margin: 20px 0;
+  font-size: 1rem;
+  color: gray;
+}
+
+.time-table-right .btn-dark {
+  margin-top: 50px;
+}
+
+/* ---------------------------------------- Doctore-Team Section ----------------------------------------  */
+
+.doctore-team {
+  margin: 40px;
+  text-align: center;
+}
+
+.doctore-team-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.doctore-team-cards .doctor-image {
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 120px;
+  margin: 20px 0;
+}
+
+.doctore-team-cards div h6 {
+  margin: 20px;
+}
+
+.doctore-team-cards div p {
+  margin: 20px;
+  color: gray;
+}
+
+.doctore-team-cards-logo a img {
+  width: 40px;
+  padding: 9px;
+  background-color: rgb(199, 213, 224);
+  border-radius: 22px;
+}
+
+.doctore-team .btn-dark {
+  margin: 30px auto;
+}
+
+/* ===================================== Media Quaries =====================================  */
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: rgb(168, 192, 214);
+  }
+
+  .header{
+    height: 600px;
+  }
+
+  .container-1 .container-card {
+    height: 330px;
+  }
+
+  .about-right h5,
+  .about-right h2 {
+    margin: 0;
+  }
+
+  .about-right .btn-light {
+    margin-top: 10px;
+  }
+
+  .servises-left{
+    width: 85%;
+  }
+
+  .servises-left div{
+    height: 235px;
+  }
+
+  .servises-right{
+    height: 490px;
+  }
+
+  .servises-right div {
+    margin: 0px 20px;
+}
+
+  .servises-right div h3{
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+
+
+
+
+
+}

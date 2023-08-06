@@ -1,0 +1,86 @@
+
+
+#light-icon{
+    color: white;
+    /* background-color: white; */
+}
+
+#bg-dark{
+    background-color: rgba(59, 18, 45, 0.925);
+    color: white;
+
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+h3{
+    font-size: 2rem;
+    /* line-height: 2.3rem; */
+}
+
+h4{
+    font-size: 1.5rem;
+    
+}
+
+h5{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: gray;
+}
+
+h6{
+    font-size: 1.15rem;
+    /* line-height: 1.3rem; */
+}
+
+
+
+.btn-dark{
+    text-decoration: none;
+    font-weight: 700;
+    background-color: rgba(59, 18, 45, 0.925);
+    color: rgb(208, 208, 241);
+    width: 130px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 0 solid;
+    border-radius: 60px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn-dark:hover{
+    background-color: rgb(208, 208, 241);
+    color: rgba(59, 18, 45, 0.925);
+}
+
+.btn-dark a{   
+    text-decoration: none;
+}
+
+.btn-light{
+    border: 2px solid rgba(59, 18, 45, 0.925);
+    color: rgba(59, 18, 45, 0.925);
+    width: 130px;
+    padding: 10px;
+    border-radius: 60px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-light a{
+    text-decoration: none;
+}
+
